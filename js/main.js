@@ -36,7 +36,7 @@ $(document).ready(function() {
         return false;
     });
     jQuery(function($) {
-        $(".phone-mask").mask("+8 (999) 999-99-99");
+        $(".phone-mask").mask("+38 (999) 999-99-99");
     });
     $(".animate-scroll").click(function(event) {
         event.preventDefault();
