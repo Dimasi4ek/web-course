@@ -5,13 +5,11 @@
 
 $name = $_POST['user_name'];
 $phone = $_POST['user_phone'];
-$phone2 = $_POST['user_phone2'];
 $token = "1015844949:AAGg4dq9x6ewi0T4ArLSTh3O63Zxs8YEV7A";
-$chat_id = "529661165";
+$chat_id = "-368570423";
 $arr = array(
   'Имя клиента: ' => $name,
   'Телефон: ' => $phone,
-  'Телефон2: ' => $phone2,
 );
 
 foreach($arr as $key => $value) {
