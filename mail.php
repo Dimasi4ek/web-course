@@ -6,10 +6,10 @@
 $name = $_POST['user_name'];
 $phone = $_POST['user_phone'];
 $token = "1015844949:AAGg4dq9x6ewi0T4ArLSTh3O63Zxs8YEV7A";
-$chat_id = "-368570423";
+$chat_id = "529661165";
 $arr = array(
   'Имя клиента: ' => $name,
-  'Телефон: ' => $phone,
+  'Телефон: ' => "$phone",
 );
 
 foreach($arr as $key => $value) {
