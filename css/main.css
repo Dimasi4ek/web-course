@@ -3,6 +3,7 @@
 /*(СЃ) Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹*/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700&subset=cyrillic');
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -99,13 +100,16 @@ h2 {
     height: auto;
     /*padding: 10px 15px;*/
 }
+
 .navbar-brand {
     float: left;
     height: 50px;
-    padding: 5px 10px; !important;
+    padding: 5px 10px;
+     !important;
     font-size: 18px;
     line-height: 20px;
 }
+
 .navbar-brand>img {
     display: block;
     width: 130px;
@@ -130,7 +134,7 @@ h2 {
 }
 
 .navbar-default .navbar-nav>li.phone>a:hover,
-.navbar-default .navbar-nav>li.phone>a:focus{
+.navbar-default .navbar-nav>li.phone>a:focus {
     color: #fff;
 }
 
@@ -158,7 +162,8 @@ h2 {
     background-color: #fff;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
     background-color: #ffa14f;
 }
 
@@ -219,7 +224,7 @@ header .header-box .btn {
 }
 
 
-#clockdiv{
+#clockdiv {
     font-family: sans-serif;
     color: #fff;
     display: inline-block;
@@ -232,7 +237,7 @@ header .header-box .btn {
     margin-right: 20px;
 }
 
-#clockdiv > div {
+#clockdiv>div {
     display: inline-block;
     color: #000;
     text-align: left;
@@ -240,11 +245,11 @@ header .header-box .btn {
     position: relative;
 }
 
-#clockdiv > div:last-child{
+#clockdiv>div:last-child {
     margin: 0;
 }
 
-#clockdiv > div:before {
+#clockdiv>div:before {
     content: ':';
     color: #e6e6e8;
     right: -27px;
@@ -255,11 +260,11 @@ header .header-box .btn {
     line-height: 1;
 }
 
-#clockdiv > div:last-child:before{
+#clockdiv>div:last-child:before {
     display: none;
 }
 
-#clockdiv div > span{
+#clockdiv div>span {
     padding: 10px 0px;
     border-radius: 6px;
     display: inline-block;
@@ -269,7 +274,7 @@ header .header-box .btn {
     font-size: 50px;
 }
 
-.header-form-text h3 span{
+.header-form-text h3 span {
     font-weight: bold;
     color: #fe5834;
 }
@@ -294,7 +299,7 @@ header .header-box .btn {
 }
 
 .header-form-text a:hover,
-.header-form-text a:focus{
+.header-form-text a:focus {
     text-decoration: none;
     outline: 0;
     box-shadow: 0px 9px 37px 0px rgba(19, 86, 0, 0.58);
@@ -320,7 +325,9 @@ header .header-box .btn {
     margin-right: 10px;
 }
 
-#timing .nav-pills>li.active>a, #timing .nav-pills>li.active>a:focus, #timing .nav-pills>li.active>a:hover {
+#timing .nav-pills>li.active>a,
+#timing .nav-pills>li.active>a:focus,
+#timing .nav-pills>li.active>a:hover {
     color: #fff;
     -webkit-box-shadow: 0px 12px 46px rgba(0, 0, 0, 0.13);
     -moz-box-shadow: 0px 12px 46px rgba(0, 0, 0, 0.13);
@@ -372,7 +379,7 @@ header .header-box .btn {
     font-size: 16px;
 }
 
-.sport-box .title:before{
+.sport-box .title:before {
     content: '';
     height: 1px;
     width: 60px;
@@ -405,11 +412,11 @@ header .header-box .btn {
     transition: 0.3s all;
 }
 
-.sport-box:hover .sport-over{
+.sport-box:hover .sport-over {
     background: rgba(43, 43, 59, 0.8);
 }
 
-.sport-box:hover img{
+.sport-box:hover img {
     left: -50px;
 }
 
@@ -426,6 +433,7 @@ header .header-box .btn {
     font-weight: 500;
     margin-bottom: 20px;
 }
+
 .sport-box .text span {
     font-weight: bold;
     color: #bfff00;
@@ -487,7 +495,7 @@ header .header-box .btn {
     padding-left: 50px;
 }
 
-#review{
+#review {
     background: url(../img/review.jpg);
     background-size: cover;
     color: #fff;
@@ -505,12 +513,12 @@ header .header-box .btn {
     margin-right: 40px;
 }
 
-.review-box .re{
+.review-box .re {
     position: absolute;
     left: 30px;
     top: 30px;
     font-size: 180px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1;
     color: #e46c48;
 }
@@ -547,7 +555,8 @@ header .header-box .btn {
     left: 85px;
 }
 
-#review-carousel .owl-prev:hover, #review-carousel .owl-next:hover {
+#review-carousel .owl-prev:hover,
+#review-carousel .owl-next:hover {
     color: #fe5834;
 }
 
@@ -620,12 +629,12 @@ header .header-box .btn {
     border-radius: 10px;
 }
 
-.contact-item span{
+.contact-item span {
     font-weight: 500;
     margin-right: 10px;
 }
 
-#sale{
+#sale {
     background: url("../img/sale.jpg");
     color: #fff;
 }
@@ -635,7 +644,7 @@ header .header-box .btn {
     font-weight: bold;
 }
 
-#sale h2 span{
+#sale h2 span {
     color: #fff;
 }
 
@@ -697,21 +706,27 @@ a.link-privacy {
         width: 100%;
         margin-bottom: 15px;
     }
+
     .contact {
         text-align: center;
     }
+
     .copyright {
         text-align: center;
     }
+
     .link-privacy {
         float: none;
         display: inline-block;
         width: 100%;
         text-align: center;
     }
+
     .footer-title {
         text-align: center;
     }
+
+
 }
 
 .modal-header {
@@ -797,22 +812,26 @@ button.close {
     vertical-align: middle;
 }
 
+
 @media(max-width: 768px) {
     .modal-body {
         position: relative;
         padding: 20px;
     }
+
     .modal-header {
         padding: 30px 20px 0;
         font-size: 14px;
         text-align: center;
     }
+
     button.close {
         font-size: 30px;
         top: 7px;
         right: 11px;
         color: #ccc;
     }
+
 }
 
 @media(max-width: 1200px) {
@@ -834,7 +853,7 @@ button.close {
         position: relative;
     }
 
-    #clockdiv div > span {
+    #clockdiv div>span {
         font-size: 34px;
     }
 
@@ -854,6 +873,7 @@ button.close {
     header .after-h1 {
         width: 56%;
     }
+
     #sale {
         background: url(../img/sale.jpg);
         background-position: center;
@@ -870,7 +890,7 @@ button.close {
         width: 100%;
     }
 
-    .header-form-text a{
+    .header-form-text a {
         display: none;
     }
 
@@ -878,13 +898,13 @@ button.close {
         margin-top: -7px;
     }
 
-    .sport-box{
+    .sport-box {
 
         height: 250px;
     }
 
     #about .col-sm-8,
-    #about .col-sm-4{
+    #about .col-sm-4 {
         width: 100%;
     }
 
@@ -915,7 +935,8 @@ button.close {
         top: 20px;
     }
 
-    #review-carousel .owl-prev, #review-carousel .owl-next {
+    #review-carousel .owl-prev,
+    #review-carousel .owl-next {
         display: none;
     }
 
@@ -946,7 +967,9 @@ button.close {
         font-size: 35px;
         margin: 0 0 40px;
     }
-
+    .sport-box img {
+        height: 500px !important;
+    }
     .navbar-default .navbar-brand {
         width: auto;
     }
@@ -968,7 +991,7 @@ button.close {
         padding-bottom: 20px;
     }
 
-    #clockdiv > div {
+    #clockdiv>div {
         margin-right: 15px;
     }
 
@@ -980,8 +1003,8 @@ button.close {
 
     header {
         padding: 160px 0 20px;
-        background: url(../img/header.jpg);
-        background-position: right;
+        background: url(../img/header-mob.jpg);
+        background-position: center;
     }
 
     section {
@@ -1037,7 +1060,8 @@ button.close {
     .review-box {
         margin-right: 0;
     }
-    #contact iframe{
+
+    #contact iframe {
         display: none;
     }
 
@@ -1053,4 +1077,9 @@ button.close {
         text-align: center;
     }
 
+}
+@media(max-width: 450px){
+        .sport-box img {
+        height: 250px !important;
+    }
 }
