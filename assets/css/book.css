@@ -654,6 +654,15 @@ section.main .text {
 
 }
 
+.link {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+.compete-image {
+    max-width: 300px;
+}
+
 @media (max-width: 991px) {
     .paragraph p {
         font-size: 1.25rem;
